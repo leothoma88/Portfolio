@@ -1,4 +1,9 @@
 import React from 'react';
+import HomeChoice from "../images/Screen Shot 2023-01-12 at 8.47.42 PM.png"
+import Giveback from "../images/Screen Shot 2023-03-31 at 5.45.18 PM.png"
+import Combat from "../images/Screen Shot 2022-10-20 at 3.40.22 PM.png"
+import Swiftnews from "../images/Screen Shot 2022-08-21 at 8.44.28 PM.png"
+
 
 
 
@@ -15,13 +20,11 @@ function Main(){
             
                 <section id="one">
                     <header class="major">
-                        <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                        magna sed accumsan arcu neque.</h2>
+                        <h2>About Me<br />
+                        </h2>
                     </header>
-                    <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-                    <ul class="actions">
-                        <li><a href="#" class="button">Learn More</a></li>
-                    </ul>
+                    <p>Darrell spends his days curating a future already heavily invested in business development. Through great communication skills, business etiquette, established sales tactics and inviting interpersonal relationship skills, Darrell never ceases to bring life to any business venture. His works cannot be taken into full account unless coupled with the thought of his high personal standards, care for common man and above all his high regard for ethics and true grit.</p>
+
                 </section>
 
             
@@ -29,22 +32,22 @@ function Main(){
                     <h2>Recent Work</h2>
                     <div class="row">
                         <article class="col-6 col-12-xsmall work-item">
-                            <a href="./images/fulls/01.jpg" class="image fit thumb"><img src="./images/thumbs/01.jpg" alt="Thumb" /></a>
+                            <a href= {HomeChoice} class="image fit thumb"><img src={HomeChoice} alt="Thumb" /></a>
                             <h3>Magna sed consequat tempus</h3>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
                         </article>
                         <article class="col-6 col-12-xsmall work-item">
-                            <a href="images/fulls/02.jpg" class="image fit thumb"><img src="../images/thumbs/02.jpg" alt="Thumb" /></a>
+                            <a href={Giveback} class="image fit thumb"><img src={Giveback} alt="Thumb" /></a>
                             <h3>Ultricies lacinia interdum</h3>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
                         </article>
                         <article class="col-6 col-12-xsmall work-item">
-                            <a href="images/fulls/03.jpg" class="image fit thumb"><img src="../images/thumbs/03.jpg" alt="Thumb" /></a>
+                            <a href={Swiftnews} class="image fit thumb"><img src={Swiftnews} alt="Thumb" /></a>
                             <h3>Tortor metus commodo</h3>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
                         </article>
                         <article class="col-6 col-12-xsmall work-item">
-                            <a href="images/fulls/04.jpg" class="image fit thumb"><img src="../images/thumbs/04.jpg" alt="Thumb" /></a>
+                            <a href={Combat} class="image fit thumb"><img src={Combat} alt="Thumb" /></a>
                             <h3>Quam neque phasellus</h3>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
                         </article>

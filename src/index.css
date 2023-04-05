@@ -2042,6 +2042,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image:before {
@@ -2127,10 +2128,13 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			height: 70%;
+			
 		}
 
 			.image.fit img {
 				width: 100%;
+				height: 100%;
 			}
 
 		.image.avatar {
